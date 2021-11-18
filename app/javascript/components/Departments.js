@@ -11,7 +11,7 @@ const renderDepartments = () => {
         return (
         <div style={{margin:"20px", border:'1px solid'}}>
             <a href={`/departments/${department.id}`} data-method="delete">Delete Department&nbsp;&nbsp;</a>
-            <a href={`/department/${department.id}`} data-method="edit">Edit Department</a>
+            <a href={`/departments/${department.id}/edit`} >Edit Department</a>
             <h1>{department.name}</h1>
             <p>{department.id}</p>
         </div>
